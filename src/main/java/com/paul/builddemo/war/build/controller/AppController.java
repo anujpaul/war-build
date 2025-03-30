@@ -14,7 +14,7 @@ public class AppController {
 	
 	@GetMapping("/home")
 	public String home() {
-		return "This project is for demo on how to build using CI/CD pipelines";
+		return "This project is for demo on how to build using CI and CD pipelines";
 	}
 
 }
